@@ -89,3 +89,62 @@ ul>li{
     width: 100%;
 }
 
+.gif-two{
+    background: url('./assets/gif/charts.gif');
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+
+/* SECTION TWO STYLING */
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+
+.gif-three{
+    background: url('./assets/gif/contactUs.gif');
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+}
+
+.sec-three-last-h1{
+    font-family: "Libre Barcode 128 Text", system-ui;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+.sec-three-first-h1{
+    font-family: "Bellota", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    color: black;
+}
+
+/* FOOTER STYLING */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.5rem;
+    border-top: 1px solid black;
+}
+
+.footer>img{
+    object-fit: cover;
+    width: 60%;
+    display: block;
+    height: 50px;
+    margin-top: 0.25em;
+}
