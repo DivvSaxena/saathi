@@ -58,7 +58,7 @@ onValue(usersInDB , (snapshot) => {
         let currentItem = itemArray[item][1]
         
         console.log(currentItem)
-        currentBalanceEl.textContent = `Rs ${currentItem[item].balance}`
+        currentBalanceEl.textContent = `Rs ${currentItem[0].balance}`
         feedHtml += getFeed(currentItem)
         
     }
