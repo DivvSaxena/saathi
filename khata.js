@@ -54,7 +54,7 @@ onValue(usersInDB , (snapshot) => {
 
     
 
-    for(let item = 0; item < itemArray.length ; item--){
+    for(let item = 0; item < itemArray.length ; item++){
         let currentItem = itemArray[item][1]
         
         console.log(currentItem)
