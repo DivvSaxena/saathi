@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Belleza&family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Berkshire+Swash&family=Besley:ital,wght@0,400..900;1,400..900&family=Libre+Barcode+128+Text&family=Love+Ya+Like+A+Sister&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Modern+Antiqua&display=swap');
 
+@font-face {
+    font-family: 'hindi';
+    src: url('./assets/AkashaItalic-BWDd8.ttf');
+}
+
+
 html,body{
     margin: 0;
 }
@@ -67,17 +73,18 @@ ul>li{
 }
 
 .section-one > h1{ 
-    font-size: 2.5rem;
+    font-size: 3.5rem;
 }
 
 .sec-head-one{
-    font-family: "Berkshire Swash", serif;
+    font-family: 'hindi';
     font-weight: 400;
     margin-left: 0.25em;
 }
 
 .sec-head-two{
-    font-family: "Besley", serif;
+    font-family: 'hindi';
+    font-weight: 400;
     margin-left: 0.25em;
 }
 
