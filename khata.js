@@ -54,13 +54,12 @@ onValue(usersInDB , (snapshot) => {
 
     
 
-    for(let item = itemArray.length - 1; item >= 0; item--){
+    for(let item = 0; item < itemArray.length ; item--){
         let currentItem = itemArray[item][1]
         
         console.log(currentItem)
-        currentBalanceEl.textContent = `Rs ${currentItem[0].balance}`
+        currentBalanceEl.textContent = `Rs ${currentItem[item].balance}`
         feedHtml += getFeed(currentItem)
-        currentBalanceEl.textContent = `Rs ${currentItem[0].balance}`
         
     }
     

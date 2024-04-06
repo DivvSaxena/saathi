@@ -5,6 +5,10 @@
     src: url('./assets/AkashaItalic-BWDd8.ttf');
 }
 
+@font-face {
+    font-family: 'my desh matra';
+    src: url('./assets/MyhindiHindigyan-GW1a.ttf');
+}
 
 html,body{
     margin: 0;
@@ -48,9 +52,9 @@ ul{
     width: 100%;
     padding: 0;
     list-style: none;
-    font-family: "Bellota", system-ui;
-    font-weight: 300;
-    font-size: 1.5rem;
+    font-family: 'hindi';
+    font-weight: 400;
+    font-size: 2.4rem;
 }
 
 a{
@@ -74,6 +78,7 @@ ul>li{
 
 .section-one > h1{ 
     font-size: 3.5rem;
+    margin-top: 0;
 }
 
 .sec-head-one{
@@ -116,11 +121,11 @@ ul>li{
 
 
 .gif-three{
-    background: url('./assets/gif/contactUs.gif');
+    background: url('./assets/gif/contact.gif');
     background-size: cover;
     height: 400px;
     width: 100%;
-    background-position: center;
+    background-position: center right;
 }
 
 .sec-three-last-h1{
@@ -130,8 +135,10 @@ ul>li{
 }
 
 .sec-three-first-h1{
-    font-family: "Bellota", system-ui;
-    font-weight: 900;
+    font-family: 'my desh matra';
+    font-weight: 600;
+    font-size: 3.5rem;
+    margin: 0.5em 0 0.5em 0;
     font-style: normal;
     color: black;
 }
